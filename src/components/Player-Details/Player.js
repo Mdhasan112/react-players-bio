@@ -17,7 +17,7 @@ const Player = () => {
             }
             </div>
             <div className="cart-container">
-                <h3>This is cart</h3>
+                <h3>Details....</h3>
             </div>
         </div>
        

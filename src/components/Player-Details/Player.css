@@ -8,4 +8,8 @@
 .cart-container {
     width: 30%;
     background-color: lightsteelblue;
+    margin: 10px 10px 10px 10px;
+}
+.cart-container h3{
+    padding-left: 10px;
 }
