@@ -2,11 +2,13 @@
     display: flex;
     border-bottom: 1px solid goldenrod;
     padding: 20px;
-    margin-right: 10px;
+    margin-right: 5px;
+    background-color: cadetblue;
 }
 .product-img img{
     width: 200px;
     margin-right: 15px;
+    border-radius: 50%;
 }
 .product-bio{
 

@@ -1,7 +1,9 @@
 .header img{
-    height: 350px;
+    height: 400px;
+    width: 100%;
 }
 .header{
     text-align: center;
     border-bottom: 1px solid goldenrod;
+    background-color: black;
 }
