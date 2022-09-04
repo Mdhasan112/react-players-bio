@@ -13,7 +13,6 @@ const Player = () => {
 
     const[cart, setCart] = useState([])
     const handlePlayerlistner = (player) => {
-        console.log("clicked")
         const newCart = [...cart, player]
         setCart(newCart)
     }
@@ -22,7 +21,7 @@ const Player = () => {
         <div className="container">
             <div className="player-container">
             {
-                players.map(player => <Bio handlePlayerlistner ={handlePlayerlistner} player ={player}></Bio>)
+                players.map(player => <Bio handlePlayerlistner ={handlePlayerlistner} key ={player.id} player ={player}></Bio>)
             }
             </div>
             <div className="cart-container">
