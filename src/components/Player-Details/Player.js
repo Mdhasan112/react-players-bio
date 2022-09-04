@@ -2,22 +2,31 @@ import React, { useEffect, useState } from 'react';
 import './Player.css'
 import playerData from '../../data/data.json'
 import Bio from '../Bio/Bio';
+import { faCarTunnel } from '@fortawesome/free-solid-svg-icons';
+import Cart from '../Cart/Cart';
 
 const Player = () => {
     const[players, setPlayers] = useState([]);
     useEffect(() => {
         setPlayers(playerData)
     }, [])
+
+    const[cart, setCart] = useState([])
+    const handlePlayerlistner = (player) => {
+        console.log("clicked")
+        const newCart = [...cart, player]
+        setCart(newCart)
+    }
     
     return (
         <div className="container">
             <div className="player-container">
             {
-                players.map(player => <Bio player ={player}></Bio>)
+                players.map(player => <Bio handlePlayerlistner ={handlePlayerlistner} player ={player}></Bio>)
             }
             </div>
             <div className="cart-container">
-                <h3>Details....</h3>
+                <Cart cart = {cart}></Cart>
             </div>
         </div>
        

@@ -1,8 +1,12 @@
 import React from 'react';
-import './Bio.css'
+import './Bio.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faUserPlus } from '@fortawesome/free-solid-svg-icons'
+
 
 const Bio = (props) => {
     const {name, gender, email, images, country, phone} = props.player
+    const handlePlayerlistner = props.handlePlayerlistner
     return (
         <div className='product'>
             <div className='product-img'>
@@ -14,6 +18,7 @@ const Bio = (props) => {
                 <p>Country: {country}</p>
                 <p>Phone: {phone}</p>
                 <p>Email: {email}</p>
+                <button onClick={() => handlePlayerlistner(props.player)} className='main-btn'><FontAwesomeIcon icon={faUserPlus} /> Add Player</button>
             </div>
            
         </div>

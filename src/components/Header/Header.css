@@ -4,6 +4,6 @@
 }
 .header{
     text-align: center;
-    border-bottom: 1px solid goldenrod;
-    background-color: black;
+    border-bottom: 5px solid goldenrod;
+    background-color: goldenrod;
 }

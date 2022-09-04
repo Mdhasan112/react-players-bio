@@ -9,6 +9,7 @@
     width: 30%;
     background-color: lightsteelblue;
     margin: 10px 10px 10px 10px;
+    border-radius: 5px;
 }
 .cart-container h3{
     padding-left: 10px;

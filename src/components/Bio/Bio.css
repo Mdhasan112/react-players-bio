@@ -5,12 +5,22 @@
     padding-bottom: 50px;
     margin: 10px 10px 10px 10px;
     background-color: cadetblue;
+    border-radius: 5px;
 }
 .product-img img{
     width: 200px;
     margin-right: 15px;
     border-radius: 50%;
 }
-.product-bio{
-
+.main-btn{
+    color: white;
+    width: 120px;
+    height: 30px;
+   background-color: goldenrod;
+   border: 1px solid grey;
+   border-radius: 5px;
+}
+.main-btn:hover{
+    color: royalblue;
+    
 }

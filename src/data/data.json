@@ -1,6 +1,7 @@
 [{
     "id": 1,
     "name": "Shakib Al Hasan",
+    "salary": 450000,
     "email": "fredmore0@arizona.edu",
     "gender": "Male",
     "ip_address": "68.9.251.88",
@@ -10,6 +11,7 @@
   }, {
     "id": 2,
     "name": "Tamim Iqbal",
+    "salary": 500000,
     "email": "ttregonna1@tamu.edu",
     "gender": "Male",
     "ip_address": "26.238.93.253",
@@ -19,6 +21,7 @@
   }, {
     "id": 3,
     "name": "Mushfiqur Rahim",
+    "salary": 450000,
     "email": "dhutchins2@skype.com",
     "gender": "Male",
     "ip_address": "120.122.130.84",
@@ -28,6 +31,7 @@
   }, {
     "id": 4,
     "name": "Mahamudullah Riyad",
+    "salary": 350000,
     "email": "lbyng3@barnesandnoble.com",
     "gender": "Male",
     "ip_address": "196.74.93.38",
@@ -37,6 +41,7 @@
   }, {
     "id": 5,
     "name": "Mashrafi Bin Mortaza",
+    "salary": 250000,
     "email": "cblaxill4@spiegel.de",
     "gender": "Male",
     "ip_address": "202.115.195.81",
@@ -46,6 +51,7 @@
   }, {
     "id": 6,
     "name": "Sabbir Rahman",
+    "salary": 250000,
     "email": "gshorland5@elpais.com",
     "gender": "Male",
     "ip_address": "39.153.188.251",
@@ -55,6 +61,7 @@
   }, {
     "id": 7,
     "name": "Sheikh Mehidy Hasan",
+    "salary": 250000,
     "email": "rcalderon6@chron.com",
     "gender": "Male",
     "ip_address": "153.227.137.238",
@@ -64,6 +71,7 @@
   }, {
     "id": 8,
     "name": "Mehedi Miraz",
+    "salary": 250000,
     "email": "dgrise7@desdev.cn",
     "gender": "Male",
     "ip_address": "68.52.86.186",
@@ -73,6 +81,7 @@
   }, {
     "id": 9,
     "name": "Taskin Ahammed",
+    "salary": 250000,
     "email": "kstidson8@nytimes.com",
     "gender": "Male",
     "ip_address": "161.34.128.75",
@@ -82,6 +91,7 @@
   }, {
     "id": 10,
     "name": "Rubel Ahammed",
+    "salary": 250000,
     "email": "bmactrustey9@last.fm",
     "gender": "Male",
     "ip_address": "230.74.105.13",
@@ -91,6 +101,7 @@
   }, {
     "id": 11,
     "name": "Nasum Ahmed",
+    "salary": 300000,
     "email": "rbrawleya@indiegogo.com",
     "gender": "Male",
     "ip_address": "155.107.61.188",
@@ -100,6 +111,7 @@
   }, {
     "id": 12,
     "name": "Mustafizur Rahman",
+    "salary": 450000,
     "email": "rwillbourneb@telegraph.co.uk",
     "gender": "Male",
     "ip_address": "253.43.120.242",
@@ -109,6 +121,7 @@
   }, {
     "id": 13,
     "name": "Anamul Haq Bijoy",
+    "salary": 250000,
     "email": "bturlandc@cafepress.com",
     "gender": "Male",
     "ip_address": "223.137.128.29",
@@ -118,6 +131,7 @@
   }, {
     "id": 14,
     "name": "Saifuddin",
+    "salary": 150000,
     "email": "alaterzad@nature.com",
     "gender": "Male",
     "ip_address": "196.194.103.96",
@@ -127,6 +141,7 @@
   }, {
     "id": 15,
     "name": "Nurul Hasan Shohan",
+    "salary": 250000,
     "email": "agilffillande@umn.edu",
     "gender": "Male",
     "ip_address": "196.53.178.124",
