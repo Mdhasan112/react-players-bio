@@ -13,7 +13,7 @@ const Bio = (props) => {
                 <img src= {images} alt="" />
             </div>
             <div className='product-bio'>
-                <h2>{name}</h2>
+                <h2 name>{name}</h2>
                 <p>Gender: {gender}</p>
                 <p>Country: {country}</p>
                 <p>Phone: {phone}</p>
