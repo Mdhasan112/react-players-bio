@@ -4,12 +4,10 @@ import './Cart.css'
 const Cart = (props) => {
     const cart = props.cart;
     const playerDetails = props.playerDetails
-    console.log(cart)
     
     let total = 0;
     for (let i = 0; i < cart.length; i++) {
         const player = cart[i];
-        console.log(player.name)
         total = total + player.salary 
     }
     return (
